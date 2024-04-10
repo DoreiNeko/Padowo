@@ -1,22 +1,11 @@
 import discord
 from discord.ext import commands,tasks
 import os
-import yt_dlp
 import asyncio
 
 class Music(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-
-    #self.ydl_opts = {
-    #    'format': 'bestaudio/best',
-    #    'postprocessors': [{
-    #        'key': 'FFmpegExtractAudio',
-    #        'preferredcodec': 'mp3',
-    #        'preferredquality': '192'
-    #    }],
-    #    }
-        #with yt_dlp.YoutubeDL(ydl_opts) as ydl:
 
     @commands.command(
         name="join",
